@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Ancizar+Serif:ital,wght@0,300..900;1,300..900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --primary-color: #091231;
+    --secundary-color: #5771e6;
+    --text-color: #000000;
+    --background-color: #abc5ec;
+    --button-hover: #1e062e;
+    --font-body:"Roboto sans", serif;
+    --font-titulo: "Libre Baskerville", serif;
+}
+
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-body);
+}
+/* corpo da pagina*/
+body{
+    background-color: var(--background-color);
+    color: var(--text-color);
+    line-height: 1.6;
+}
+
+h3{
+    margin-top: 25px;
+}
+p{
+    margin-top: 20px;
+}
+img{
+    max-width: 90%;
+}
+/* cabeçalho */
+header{
+    background: var(--background-color)
+    color: #000000;
+    text-align: center;
+    padding: 22px;
+}
